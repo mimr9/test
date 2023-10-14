@@ -1,0 +1,101 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "alt+d",
+        "command": "workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active"
+    },
+    {
+        "key": "ctrl+`",
+        "command": "-workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active"
+    },
+    {
+        "key": "alt+k",
+        "command": "vim.remap",
+        "when": "inputFocus && vim.mode == 'Normal'",
+        "args": {
+          "after": ["4", "k"]
+        }
+    },
+    {
+        "key": "Alt+j",
+        "command": "vim.remap",
+        "when": "inputFocus && vim.mode == 'Normal'",
+        "args": {
+          "after": ["4", "j"]
+        }
+    },
+    {
+        "key": "Alt+l",
+        "command": "vim.remap",
+        "when": "inputFocus && vim.mode == 'Normal'",
+        "args": {
+          "after": ["z", "z"]
+        }
+    },
+    {
+        "key": "Alt+m",
+        "command": "vim.remap",
+        "when": "inputFocus && vim.mode == 'Normal'",
+        "args": {
+          "after": ["z", "t"]
+        }
+    },
+    {
+        "key": "Alt+a",
+        "command": "vim.remap",
+        "when": "inputFocus && vim.mode == 'Normal'",
+        "args": {
+          "after": ["z", "a"]
+        }
+    },
+    {
+        "key": "Alt+f",
+        "command": "vim.remap",
+        "when": "inputFocus && vim.mode == 'VisualLine'",
+        "args": {
+          "after": ["z", "f"]
+        }
+    },
+    {
+        "key": "alt+k",
+        "command": "vim.remap",
+        "when": "inputFocus && vim.mode == 'Visual'",
+        "args": {
+          "after": ["4", "k"]
+        }
+    },
+    {
+        "key": "Alt+j",
+        "command": "vim.remap",
+        "when": "inputFocus && vim.mode == 'Visual'",
+        "args": {
+          "after": ["4", "j"]
+        }
+    }
+    {
+        "key": "alt+k",
+        "command": "vim.remap",
+        "when": "inputFocus && vim.mode == 'VisualLine'",
+        "args": {
+          "after": ["4", "k"]
+        }
+    },
+    {
+        "key": "Alt+j",
+        "command": "vim.remap",
+        "when": "inputFocus && vim.mode == 'VisualLine'",
+        "args": {
+          "after": ["4", "j"]
+        }
+    },
+    {
+        "key": "Alt",
+        "command": " ",
+        "when": " ",
+        "args": {
+          "after": []
+        }
+    }
+]
